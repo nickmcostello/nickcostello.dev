@@ -1,5 +1,3 @@
-import { useConfig } from "nextra-theme-docs";
-
 export default {
   editLink: {
     text: "",
