@@ -1,0 +1,32 @@
+{
+  "name": "nickcostello.dev",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickmcostello/nickcostello.dev.git"
+  },
+  "author": "Nick Costello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickmcostello/nickcostello.dev/issues"
+  },
+  "homepage": "https://github.com/nickmcostello/nickcostello.dev#readme",
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "typescript": "5.1.3"
+  }
+}
