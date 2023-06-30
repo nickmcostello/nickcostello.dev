@@ -1,11 +1,12 @@
 export default function Page() {
 	return (
 		<>
-			<div className="py-10 flex justify-center flex-col gap-4">
-				{/* <h1 className="text-4xl font-bold text-gray-500">About</h1> */}
+			<div className="py-10 flex justify-center flex-col gap-4 max-w-lg mx-auto">
+				<h1 className="text-xl font-bold">About</h1>
 				{/* <div className="mt-8"> */}
 				<p>
-					I'm Nick Costello, a software engineer building{" "}
+					I'm <span className="font-semibold">Nick Costello</span>, a software
+					engineer building{" "}
 					<span className="underline underline-offset-4 decoration-red-500">
 						reliable
 					</span>
