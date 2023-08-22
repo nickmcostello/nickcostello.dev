@@ -1,25 +1,8 @@
 export default function Page() {
 	return (
 		<>
-			<div className="py-10 flex justify-center flex-col gap-4 max-w-lg mx-auto">
+			<div className="py-8 flex justify-center flex-col gap-4 max-w-lg mx-auto selection:bg-indigo-300 selection:text-indigo-800">
 				<h1 className="text-xl font-bold">About</h1>
-				{/* <div className="mt-8"> */}
-				<p>
-					I'm <span className="font-semibold">Nick Costello</span>, a software
-					engineer building{" "}
-					<span className="underline underline-offset-4 decoration-red-500">
-						reliable
-					</span>
-					,{" "}
-					<span className="underline underline-offset-4 decoration-green-500">
-						cost-effective
-					</span>
-					,{" "}
-					<span className="underline underline-offset-4 decoration-blue-500">
-						fun-to-use
-					</span>{" "}
-					systems that scale.
-				</p>
 				<p>
 					You probably haven't been, but I was born in Langhorne, Pennsylvania,
 					where 16 years later, my software engineering career would also be
