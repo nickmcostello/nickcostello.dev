@@ -2,7 +2,7 @@ export default function Page() {
 	return (
 		<>
 			<div className="py-8 flex justify-center flex-col gap-4 max-w-lg mx-auto selection:bg-indigo-300 selection:text-indigo-800">
-				<h1 className="text-xl font-bold">About</h1>
+				<h1>About</h1>
 				<p>
 					You probably haven't been, but I was born in Langhorne, Pennsylvania,
 					where 16 years later, my software engineering career would also be

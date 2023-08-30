@@ -20,8 +20,8 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={inter.className}>
-			<body>
-				<div className="px-4">{children}</div>
+			<body className="selection:bg-indigo-300 selection:text-indigo-800">
+				<div className="py-8 px-4 md:flex md:justify-content">{children}</div>
 			</body>
 		</html>
 	);
